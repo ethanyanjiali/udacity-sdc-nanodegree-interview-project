@@ -20,5 +20,5 @@ Object classification tells what categories the object belong to, while the dete
 
 I read a paper called "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks" which proposed a network called CycleGAN. Before CycleGAN, most of the image translation tasks were done by auto encoders or GAN with small hand crafted dataset. However, one problem is that it's really hard to annotate dataset for image translation. For example, to convert a Van Goh work to Monet work, it's impossible to have Monet to draw all Van Goh's painting so that we can collect training data. CycleGAN invented a cyclic loss so that we can train a GAN using unpaired dataset. It demonstrates its ability by converting a horse image to a zebra image while still preserving the background and other unrelated objects.
 
-I have coded this network in model.py in this repo using TF 2.
+I have coded this network in code.py in this repo using TF 2. I didn't use C++ because it's mostly implemented with Python.
 
